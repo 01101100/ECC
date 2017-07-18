@@ -1,0 +1,5 @@
+program exm;
+var n : array (.4.) of array (.5.) of array(.6.) of integer;
+begin
+	n(.3.)(.4.)(.5.) := 10;
+end.

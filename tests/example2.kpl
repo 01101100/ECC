@@ -1,0 +1,43 @@
+Program Example2; (* Factorial *)
+   
+Var n, z,q : Integer;
+	m : double;
+	str : string;
+Function F(n : Integer) : Integer;
+  Begin
+    If n = 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+
+Begin
+	n,m,q := 2, 3.5,2;
+
+	do
+		begin
+			call writec('L');
+			n := n + 1;
+		end 
+	while  n < 10;
+	
+	n := 0;
+	repeat
+		begin
+			call writec('O');
+			call writeln;
+			n := n + 1;
+		end
+	until n = 10;
+
+	n := if n < 1 return 0 else return 1;
+	
+	for(n := 1; n < 10; n := n + 1)
+		begin
+			call writei(n);
+			call writeln;
+		end;
+
+  For n := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(n));
+    End;
+End. (* Factorial *)

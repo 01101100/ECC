@@ -1,0 +1,10 @@
+Program Exp; 
+Var N : integer;
+   Function Sqrt(a:integer): integer;
+   Begin
+      Sqrt := A * A;
+   End;
+Begin
+  N := Sqrt(10); 
+  Call WRITEI(N);
+End. 
